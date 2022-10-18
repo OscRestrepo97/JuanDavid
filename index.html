@@ -89,9 +89,6 @@ var point1 = new L.latLng(1.620214, -75.604252);
 /* Creacion de las marcas del mapa */
 var latlngs = [point1, point2];
 
-/* Creacion de las marcas del mapa */
-var latlngs2 = [point1, point3];
-
 /* Trayecto casa  */
 var polyline = L.polyline(
 latlngs, {color: 'red'}
@@ -99,9 +96,6 @@ latlngs, {color: 'red'}
 .addTo(map)
 .bindPopup ('MI CASA - UNIVERSIDAD');
 map.doubleClickZoom.disable()
-
-
-
 
 /* Creacion de la linea */
 L.control.scale({
